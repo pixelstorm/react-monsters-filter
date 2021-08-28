@@ -1,7 +1,12 @@
 import React from  'react'
 export const CardList = (props) => {
-  return (
-    <div>{props.name}</div>
-  ) 
-}
-export default CardList
+
+    const {name} = props; 
+
+
+
+    return (
+      <div>{name}</div>
+    ) 
+  }
+  export default CardList
